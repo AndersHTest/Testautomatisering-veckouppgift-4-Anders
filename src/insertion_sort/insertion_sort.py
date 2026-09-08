@@ -11,4 +11,3 @@ def insertion_sort(lst):
         if not inserted:
             result.append(item)
     return result
-
