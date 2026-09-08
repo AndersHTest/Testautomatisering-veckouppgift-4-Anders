@@ -1,4 +1,4 @@
-name: CI/CD
+name: CI/CD Repository testing
 
 on:
   push:
@@ -34,6 +34,6 @@ jobs:
 
       # 5. Kör tester (tips: använd markers)
       - name: Kör testerna med pytest
-        run: pytest --maxfail=1 --disable-warnings -q
+        run: pytest -m unit --maxfail=1 --disable-warnings -q
 
 # För CD behöver vi lägga till flera steg
