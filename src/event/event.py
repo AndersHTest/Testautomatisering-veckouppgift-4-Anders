@@ -10,6 +10,3 @@ class Event:
     def sign_up(self, member_name, ms):
         if ms.has_member(member_name):
             self.participants.append(member_name)
-
-        #if member_name in ms.get_members():    #Varför fungerar inte detta? TypeError: argument of type 'Mock' is not a container or iterable
-            #self.participants.append(member_name)
