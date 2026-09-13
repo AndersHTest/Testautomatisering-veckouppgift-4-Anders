@@ -27,3 +27,4 @@
 >4. Vad är en pull request? (kan sparas till nästa vecka)<br><br>
 >En pull request är en begäran där en utvecklare frågar om kodändringar gjorda i en egen branch får mergas med main branch. Begäran skickas i t.ex Azure DevOps och teamet kan granska koden och godkänna eller avslå begäran. <br><br>
 
+Test-dev
